@@ -1,7 +1,16 @@
+import HomePage from "./pages/HomePage";
+import {Routes, Route} from "react-router-dom"
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-900">
+      <Header/>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }
