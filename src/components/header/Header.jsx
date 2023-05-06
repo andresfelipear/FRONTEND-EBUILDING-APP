@@ -2,8 +2,11 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
-      <h1 className="text-2xl font-bold">My App</h1>
+    <header className="bg-gray-900 text-zinc-300 block">
+      <div className="py-4 text-center font-medium w-fit m-auto border-b-2">
+            <h1 className="uppercase text-7xl">design lux</h1>
+            <p className="text-right italic">We design what you dream</p>
+        </div>
       <nav>
         <ul className="flex space-x-4">
           <li><a href="#" className="hover:text-gray-300">Home</a></li>

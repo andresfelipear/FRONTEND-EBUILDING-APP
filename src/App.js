@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="App bg-gray-900">
+    <div className="App font-sans">
       <Header/>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
